@@ -1,0 +1,37 @@
+#include "stdafx.h"
+
+#include "cstdlib"
+
+#include "iostream"
+
+#include "clocale"
+
+using namespace std;
+
+int main()
+{
+setlocale (LC_CTYPE, "rus");
+cout << "\n";
+cout << "Hello\n";
+cout << "#2\n";
+cout << "\t_________\n";
+cout << "\t|\t|\n";
+cout << "\t|\t|\n";
+cout << "\t|\t|\n";
+cout << "\t|\t|\n";
+cout << "\t_________\n";
+cout << "\n\nAнкета\n";
+cout << "       Фамилия: Билл\n";
+cout << "           Имя:Гейтс\n";
+cout << "      Отчество: Иванович\n";
+cout << "           Пол:мужской\n;
+cout << " Дата рождения:1.01.1900 \n";
+cout << "         Aдрес:One Microsoft Way, 1, NY, USA\n";
+cout << "Номер телефона:8-800-555-35-35\n";
+cout << "          Kлас:-\n";
+cout << "   Место учебы:-\n";
+cout << "         Хобби:программирование\n";
+
+system ("pause");
+ return 0;
+}
